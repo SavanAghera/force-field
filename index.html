@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <canvas id="canvas" width="600" height="600"></canvas>
+    <div>
+      <label for="slowSpeed"> no of particles</label>
+      <input id="particlesNo" placeholder="no of Particles" value="10" />
+      <button onclick="start()">start</button>
+    </div>
+    <div>
+      <h5>random Ness</h1>
+      <input type="checkbox" id="isRandom">
+      <input type="range" max="100" min="0" id="randomRangeInput">
+
+    </div>
+    <div>
+      <h5>force</h1>
+      <input type="range" max="100" min="0" id="forceValue" value="3">
+
+    </div>
+    <script src="main.js"> </script>
+  </body>
+</html>
